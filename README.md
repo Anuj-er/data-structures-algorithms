@@ -55,20 +55,25 @@ Graph traversal and connected component problems.
 - **Key Skills**: BFS, DFS, adjacency representations
 - **Applications**: Island counting, shortest paths, flood fill
 
-### 11-Backtracking
+### 11. Backtracking
 Combinatorial and constraint satisfaction problems.
 - **Key Skills**: Recursive exploration, pruning, state management
 - **Applications**: Permutations, combinations, subset generation
 
-### 12-Heap-Priority-Queue
+### 12. Heap-Priority-Queue
 Heap-based problems for priority management.
 - **Key Skills**: Min/max heap operations, custom comparators
 - **Applications**: Top K problems, median finding, task scheduling
 
-### 13-Math
+### 13. Math
 Mathematical computation and number theory problems.
 - **Key Skills**: Number patterns, base conversion, mathematical formulas
 - **Applications**: Roman numerals, factorial operations, Fibonacci
+
+### 14. Dynamic Programming
+Problems involving optimal substructure and overlapping subproblems.
+- **Key Skills**: Memoization, tabulation, space optimization
+- **Applications**: Optimization problems, counting paths, sequence alignment
 
 ## 🎯 Study Strategy
 
@@ -78,29 +83,31 @@ Mathematical computation and number theory problems.
 4. **Practice String Manipulation** - Common in coding interviews
 5. **Master Sorting and Searching** - Core algorithmic concepts
 6. **Intermediate: Sliding Window** - Optimization technique
-7. **Intermediate: Greedy Algorithms** - Strategic problem solving
+7. **Intermediate: Greedy Algorithms** - Strategic problem-solving
 8. **Data Structures: Linked Lists** - Pointer manipulation mastery
 9. **Advanced: Trees** - Hierarchical data structures
 10. **Advanced: Graphs** - Complex traversal problems
-11.x] Complete all Arrays and Hashing problems (11 problems)
-- [x] Complete all Two Pointers problems (12 problems)
-- [x] Complete all Stack and Queue problems (14 problems)
-- [x] Complete all String Manipulation problems (8 problems)
-- [x] Complete all Sorting and Searching problems (3 problems)
-- [x] Complete all Sliding Window problems (5 problems)
-- [x] Complete all Greedy Algorithm problems (2 problems)
-- [x] Complete all Linked List problems (12 problems)
-- [x] Complete all Tree problems (43 problems)
-- [x] Complete all Graph problems (4 problems)
-- [x] Complete all Backtracking problems (11 problems)
-- [x] Complete all Heap/Priority Queue problems (11 problems)
-- [x] Complete all Math problems (6 problems)ms
-- [ ] Complete all Two Pointers problems  
-- [ ] Complete all Stack and Queue problems
-- [ ] Complete all String Manipulation problems
-- [ ] Complete all Sorting and Searching problems
-- [ ] Complete all Sliding Window problems
-- [ ] Complete all Greedy Algorithm problems
+11. **Expert: Backtracking** - Exhaustive search and pruning
+12. **Expert: Heaps** - Priority-based optimizations
+13. **Expert: Math** - Numeric and pattern-based logic
+14. **Boss Level: Dynamic Programming** - Solving complex problems through subproblems
+
+## ✅ Progress Tracking
+
+- [x] 01-Arrays-and-Hashing (20 problems)
+- [x] 02-Two-Pointers (13 problems)
+- [x] 03-Stack-and-Queue (14 problems)
+- [x] 04-String-Manipulation (8 problems)
+- [x] 05-Sorting-and-Searching (4 problems)
+- [x] 06-Sliding-Window (7 problems)
+- [x] 07-Greedy-Algorithms (4 problems)
+- [x] 08-Linked-List (13 problems)
+- [x] 09-Trees (45 problems)
+- [x] 10-Graphs (19 problems)
+- [x] 11-Backtracking (14 problems)
+- [x] 12-Heap-Priority-Queue (13 problems)
+- [x] 13-Math (9 problems)
+- [x] 14-Dynamic-Programming (33 problems)
 
 ## 💡 Tips
 
