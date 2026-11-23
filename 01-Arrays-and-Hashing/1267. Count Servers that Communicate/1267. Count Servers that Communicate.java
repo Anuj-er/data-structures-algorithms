@@ -1,19 +1,18 @@
-class Solution:
-    def countServers(self, grid: list[list[int]]) -> int:
-        rows, cols = len(grid), len(grid[0])
-        row_masks = [0] * rows
-        col_masks = [0] * cols
-        for row in range(rows):
-            for col in range(cols):
-                if grid[row][col]:
-                    row_masks[row] |= (1 << col)
-                    col_masks[col] |= (1 << row)
-        ans = 0
-        for row in range(rows):
-            for col in range(cols):
-                if grid[row][col]:
-                    row_connected = row_masks[row] & (row_masks[row] - 1)
-                    col_connected = col_masks[col] & (col_masks[col] - 1)
-                    if row_connected or col_connected:
-                        ans += 1
-        return ans
+1class Solution {
+2    public int countServers(int[][] grid) {
+3        int m = grid.length, n = grid[0].length;
+4        int[] rows = new int[m], cols = new int[n];  // servers on each row and column
+5        for (int i = 0; i < m; i++)
+6            for (int j = 0; j < n; j++) {
+7                rows[i] += grid[i][j];
+8                cols[j] += grid[i][j];
+9            }
+10
+11        int ans = 0;
+12        for (int i = 0; i < m; i++)
+13            for (int j = 0; j < n; j++)
+14                if (grid[i][j] == 1 && rows[i] + cols[j] > 2)  // it's counted in both, so more than 2 means company
+15                    ans++;
+16        return ans;
+17    }
+18}
